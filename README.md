@@ -19,8 +19,7 @@ Let's build your resume on GitHub page.
 ## Features
 
 1. Open Source
-2. 
-3. Fully Customizable
+2. Fully Customizable
 
 
 ## Todo
