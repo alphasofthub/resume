@@ -22,5 +22,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GIT_CONFIG_NAME: "github-actions"
+          GIT_CONFIG_EMAIL: "github-actions@users.noreply.github.com"
+          SINGLE_COMMIT: true
           BRANCH: gh-pages
           FOLDER: build
